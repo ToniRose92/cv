@@ -1,0 +1,68 @@
+{
+  "__parent": "./config.json"
+, "person": {
+      "name": {
+          "first":  "Antonia"
+        , "last":   "Garay"
+        , "full":   "@{./last} @{./first}"
+      }
+    , "nick":   "Toni"
+    , "abbr":   "toni.garay4123"
+    , "email":  "@{./abbr}@gmail.com"
+//    , "url":    "http://bit.ly/tomascv"
+    , "bio": {
+          "birth":        "August &apos;92"
+        , "citizenship":  "American"
+        , "location": {
+              "country":  "USA"
+            , "city":     "Springfield"
+            , "full":     "@{./country}, @{./city}"
+            , "lat":      37.2090
+            , "lng":      93.2923
+            , "geo": {
+                  "lat":  "@{./lat}"
+                , "lng":  "@{./lng}"
+              }
+          }
+      }
+    , "home": {
+          "pos-prefix": "insights"
+        , "pos-title":  "data analyst"
+        , "pos-tags":   "#visualization #storytelling #forecasting"
+      }
+    , "socials": {
+        "linkedin": {
+            "name":   "linkedin"
+          , "label":  "LinkedIn"
+          , "title":  "LinkedIn profile"
+          , "icon":   "fab fa-linkedin"
+          , "url":    "https://www.linkedin.com/in/tonirgaray"
+        }
+      , "github": {
+            "name":   "github"
+          , "label":  "Github"
+          , "title":  "Github account"
+          , "icon":   "fab fa-github"
+          , "url":    "https://github.com/ToniRose92"
+        }
+//      , "bitbucket": {
+//            "name":   "bitbucket"
+//          , "label":  "BitBucket"
+//          , "title":  "BitBucket repos"
+//          , "icon":   "fab fa-bitbucket"
+//          , "url":    "http://bit.ly/tomas-bb"
+//        }
+//      , "dockerhub": {
+//            "name":   "dockerhub"
+//          , "label":  "Docker"
+//          , "title":  "Docker Hub"
+//          , "icon":   "fab fa-docker"
+//          , "url":    "http://bit.ly/tomas-hub"
+//        }
+      }
+//    , "contacts": {
+//          "cell":   "KzM4MCg2Myk1NDUtMjMtb25lLTM="
+//        , "email":  "bWFpbHRvOnRiYWx0cnVzaGFpdGlzQGdtYWlsLmNvbQ=="
+//      }
+  }
+}

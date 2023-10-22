@@ -1,0 +1,1 @@
+{ "__parent": "./colors.json" , "env": "production" , "version": "0.3.1" , "cntr": 3 , "branch": "master" , "commit": "d10e652057aa055c12bde087b85d1bafcd00f87e" , "built": { "hash": "5a60" , "date": "2023-10-21" , "time": "20:07:42" , "year": "2023" , "full": "2023-10-21T20:07:42-05:00" } }
